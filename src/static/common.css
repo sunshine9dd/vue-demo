@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+img{
+  display: inline-block;
+  vertical-align: middle;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+div,input,button,textarea,table,th,td,h1,h2,h3,h4,h5,p{
+  box-sizing: border-box;
+  font-weight: normal;
+}
+/*分页上下边距控制*/
+.el-pagination {
+  padding: 20px 10px;
+  text-align: center;
+}
